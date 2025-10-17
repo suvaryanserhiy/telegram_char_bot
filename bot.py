@@ -2,7 +2,11 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 from modules import leveling_system
 from modules.commands.exp_command import get_user_exp
+from dotenv import load_dotenv
+import os
 
+
+load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 

@@ -27,7 +27,7 @@ class User:
         # Handle XP gain and possible level up
         leveled_up = False
         while self.exp >= self.level * XP_BASE:
-            self.exp -= self.level * XP_BASEc
+            self.exp -= self.level * XP_BASE
             self.level += 1
             leveled_up = True
 
