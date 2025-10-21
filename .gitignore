@@ -27,3 +27,5 @@ Thumbs.db
 # Byte-compiled / cache directories
 *.egg-info/
 .eggs/
+
+data/

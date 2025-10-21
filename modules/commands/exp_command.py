@@ -15,5 +15,5 @@ async def get_user_exp(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = leveling_system.users[user_id]
     xp_to_next = (user.level * 10) - user.exp
     await update.message.reply_text(
-        f'XP: {user.exp}, Level: {user.level}, {xp_to_next} XP to next level.'
+        f'XP: {user.exp}, Рівень: {user.level}, {xp_to_next} XP до наступного рівня.'
     )
